@@ -1,0 +1,18 @@
+Source: qubes-mgmt-salt-user-nrgaway-dom0
+Section: admin
+Priority: extra
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Build-Depends:
+    debhelper (>= 9~),
+    quilt,
+    tree
+Standards-Version: 3.9.5
+Homepage: http://www.qubes-os.org
+
+Package: qubes-mgmt-salt-user-nrgaway-dom0
+Section: admin
+Architecture: all
+Depends:
+    qubes-mgmt-salt,
+    qubes-mgmt-salt-dom0
+Description: Nrgaway's personal mgmt-salt Dom0 configuration
