@@ -17,7 +17,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 PACKAGE_NAME := qubes-mgmt-salt-all-privacy
-PACKAGE_CONTENTS := README.rst LICENSE privacy
+PACKAGE_CONTENTS := README.rst LICENSE pillar privacy
 FORMULA_DIR ?= /srv/formulas/all
 FORMULA_NAME := $(shell cat formula_name)
 
