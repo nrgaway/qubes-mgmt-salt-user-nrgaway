@@ -1,0 +1,22 @@
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+
+name:          privacy-formula
+top_level_dir: privacy
+saltenv:       all
+version:       3.0.0
+release:       1
+os:            RedHat, Debian, Ubuntu, Suse, FreeBSD
+os_family:     RedHat, Debian, Suse, FreeBSD
+summary:       Installs some privacy related configurations
+description: |
+  Replaces the .vimrc and .bash* configuration files for the root and /home/user
+
+state-tops:
+  all:
+    enable:
+      - privacy
+  
+pillar-tops:
+  all:
+    enable:
+      - privacy
