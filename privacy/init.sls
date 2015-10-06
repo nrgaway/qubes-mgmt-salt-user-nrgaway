@@ -1,14 +1,21 @@
+# -*- coding: utf-8 -*-
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+
 ##
 # privacy
+# =======
 #
-#   For root and user:
-#     - Installs enhanced .bash* configuration files.
-#       - The .bash* files also prevent .bash_history from being written
-#     - Installs .vimrc
-#       - Prevents vim history from being written
+#  For root and user:
+#    - Installs enhanced .bash* configuration files.
+#      - The .bash* files also prevent .bash_history from being written
+#    - Installs .vimrc
+#      - Prevents vim history from being written
 #
 #  TODO:
 #    - block locate database from indexing user directories
+#
+# Execute:
+#   qubesctl state.sls privacy
 ##
 
 /root:
