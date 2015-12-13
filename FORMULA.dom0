@@ -1,16 +1,13 @@
 # vim: set syntax=yaml ts=2 sw=2 sts=2 et :
 
 package-name:       qubes-mgmt-salt-user-nrgaway-dom0
-name:               nrgaway-user-formula
-top_level_dir:      nrgaway
-formula-files:      README.rst LICENSE
-pillar-files:       pillar
-test-formula-files: 
-test-pillar-files: 
-formula_root:       /srv/formulas
 saltenv:            user
 version:            3.0.0
 release:            1
+name:               nrgaway-user-formula
+top_level_dir:      nrgaway
+formula-files:      README.rst LICENSE
+formula_dir:        $(MGMT_DEFAULT_FORMULA_DIR)/$(MGMT_SALTENV)/$(MGMT_NAME)
 os:                 RedHat, Debian, Ubuntu, Suse, FreeBSD
 os_family:          RedHat, Debian, Suse, FreeBSD
 summary:            Nrgaway's personal mgmt-salt Dom0 configuration
