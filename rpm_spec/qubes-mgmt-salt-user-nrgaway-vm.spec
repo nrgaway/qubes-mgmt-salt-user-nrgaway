@@ -37,7 +37,7 @@ qubesctl saltutil.clear_cache -l quiet --out quiet > /dev/null || true
 qubesctl saltutil.sync_all refresh=true -l quiet --out quiet > /dev/null || true
 
 # Enable States
-qubesctl top.enable nrgaway saltenv=all -l quiet --out quiet > /dev/null || true
+qubesctl top.enable nrgaway saltenv=user -l quiet --out quiet > /dev/null || true
 
 %files
 %defattr(-,root,root)
