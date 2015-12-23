@@ -51,8 +51,6 @@ qubesctl top.enable nrgaway saltenv=user -l quiet --out quiet > /dev/null || tru
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.bash_logout
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.bash_profile
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.bashrc
-/srv/formulas/user/nrgaway-user-formula/nrgaway/files/.vim
-/srv/formulas/user/nrgaway-user-formula/nrgaway/files/.vim/autoload
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.vim/autoload/pathogen.vim
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.vim/PLUGINS.sh
 /srv/formulas/user/nrgaway-user-formula/nrgaway/files/.vimrc
